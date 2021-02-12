@@ -201,7 +201,8 @@ alert("Wining Team : " + win.team + " With Score : " + win.score);
 }
 }
 
-var game = new Game(myinput);                                                                      (<HTMLButtonElement>document.getElementById('hit1')).setAttribute('onclick','game.mybowler("player","score1")');                                                          
+var game = new Game(myinput);                                                                      
+(<HTMLButtonElement>document.getElementById('hit1')).setAttribute('onclick','game.mybowler("player","score1")');                                                          
                      (<HTMLButtonElement>document.getElementById('hit2')).setAttribute('onclick','game.mybowler("p","score2")');
                     (<HTMLButtonElement>document.getElementById('start')).setAttribute('onclick','gameBegin()')
                     
